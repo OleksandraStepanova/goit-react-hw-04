@@ -16,7 +16,7 @@
 
 .input {
   font-family: "Montserrat-Regular";
-  width: 700px;
+  min-width: 280px;
   padding: 4px 8px;
   border: none;
 }
@@ -33,4 +33,9 @@
 }
 .btn:hover {
   color: rgb(255, 0, 0);
+}
+@media (min-width: 768px) {
+  .input {
+    width: 700px;
+  }
 }
