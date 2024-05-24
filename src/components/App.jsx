@@ -48,7 +48,6 @@ export default function App() {
   }
 
   const openModal = (image) => {
-    console.log(image);
     setCurrentImage(image);    
     setModalIsOpen(true);
   }
