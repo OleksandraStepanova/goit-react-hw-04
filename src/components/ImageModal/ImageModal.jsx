@@ -9,6 +9,7 @@ export default function ImageModal({ isOpen, isClose, value }) {
         <ReactModal
             isOpen={isOpen}
             onRequestClose={isClose}
+            shouldCloseOnEsc={true}
             style={{
                 overlay: {
                     backgroundColor: 'rgba(0,0,0,0.75)',
